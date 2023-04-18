@@ -20,5 +20,5 @@ print(list_n := [random.randint(min_number,max_number) for i in range(n)])
 print(list_m := [random.randint(min_number,max_number) for i in range(m)])
 set_from_list_n = set(list_n)
 set_from_list_m = set(list_m)
-print('Множество повторяющихся чисел готово', intersection := set_from_list_n & set_from_list_m)
+print('Повторяющиеся числа по возрастанию', intersection := sorted(set_from_list_n & set_from_list_m))
 
